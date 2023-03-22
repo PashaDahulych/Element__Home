@@ -2,7 +2,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Tenor+Sans:regular&display=swap);
 
-
 @font-face {
   font-family: icons;
   font-display: swap;
@@ -2274,7 +2273,7 @@ body::after {
   min-width: 0;
 }
 
-.production__slide div {
+.slide-prodaction-slider__image {
   cursor: pointer;
   position: relative;
   padding-bottom: 108.695652%;
@@ -2284,7 +2283,24 @@ body::after {
   transition: padding-bottom 0.3s ease 0s;
 }
 
-.production__slide div img {
+.slide-prodaction-slider__image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.slide-foot-prodaction__image {
+  position: relative;
+  padding-bottom: 66.923077%;
+  /* 174/260 */
+}
+
+.slide-foot-prodaction__image img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2302,23 +2318,6 @@ body::after {
   -o-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s;
   cursor: pointer;
-}
-
-.foot-prodaction__slide div {
-  position: relative;
-  padding-bottom: 66.923077%;
-  /* 174/260 */
-}
-
-.foot-prodaction__slide div img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0.25rem;
 }
 
 .foot-prodaction__slide.swiper-slide-thumb-active {
@@ -2414,7 +2413,7 @@ body::after {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-      object-fit: cover;
+     object-fit: cover;
   border-radius: 0.25rem;
 }
 
@@ -4914,7 +4913,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     grid-template-columns: 100%;
   }
 
-  .production__slide div {
+  .slide-prodaction-slider__image {
     padding-bottom: 80%;
   }
 
