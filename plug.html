@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Plug</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230322173029">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="plug">
+			<picture><source srcset="img/plug.webp" type="image/webp"><img class="plug__bg" src="img/plug.png" alt="plug-bg"></picture>
+			<section class="plug__container">
+				<a href="home.html" class="plug__logo"><img src="img/logo.svg" alt="logo"><span>Element home</span></a>
+				<h2>We are making a new site</h2>
+				<h4>So far it's empty, but soon there will be a lot of furniture!</h4>
+			</section>
+		</main>
+	</div>
+	<div id="ord1" aria-hidden="true" class="popup popup--order">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="GET" class="form-order">
+						<section class="form-order__wrapper">
+							<h4 class="form-order__sub-title">Modular sofa</h4>
+							<h3 class="form-order__title">Element One</h3>
+							<div class="form-order__body">
+								<div class="form-order__image"><picture><source srcset="img/popular/image-01.webp" type="image/webp"><img src="img/popular/image-01.png" alt=""></picture></div>
+								<div class="form-order__content">
+									<div class="form-order__actions">
+										<div data-quantity class="form-order__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+									<h5 class="form-order__total">Total:</h5>
+									<p class="form-order__value">2 410,00 €</p>
+								</div>
+							</div>
+							<div class="form-order__lines">
+								<div class="form-order__line">
+									<input type="text" name="form[name]" data-validate data-required="text" placeholder="Name" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<input type="tel" name="form[tel]" data-validate data-required="tel" placeholder="Phone number" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<input type="email" name="form[email]" data-validate data-required="email" placeholder="E-mail" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<button type="submit" class="form-order__button button">Order</button>
+								</div>
+							</div>
+							<p class="form-order__info">By submitting an application, you accept the terms <a href="policy.html">agreements on the processing of personal data</a></p>
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="order-second" aria-hidden="true" class="popup popup--order-second">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="GET" class="form-order">
+						<section class="form-order__wrapper">
+							<h4 class="form-order__sub-title">Modular sofa</h4>
+							<h3 class="form-order__title">Element One</h3>
+							<div class="form-order__body form-order__body--flex-direction">
+								<div class="form-order__image form-order__image--flex-direction"><picture><source srcset="img/popular/image-01.webp" type="image/webp"><img src="img/popular/image-01.png" alt=""></picture></div>
+								<div class="form-order__content">
+									<div class="form-order__actions">
+										<div data-quantity class="form-order__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+									<h5 class="form-order__total">Total:</h5>
+									<p class="form-order__value">20 000 UAH</p>
+								</div>
+							</div>
+							<div class="form-order__lines">
+								<div class="form-order__line">
+									<input type="text" name="form[name]" data-validate data-required="text" placeholder="Name" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<input type="tel" name="form[tel]" data-validate data-required="tel" placeholder="Phone number" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<input type="email" name="form[email]" data-validate data-required="email" placeholder="E-mail" autocomplete="off" class="form-order__input input">
+								</div>
+								<div class="form-order__line">
+									<button type="submit" class="form-order__button button">Order</button>
+								</div>
+							</div>
+							<p class="form-order__info">By submitting an application, you accept the terms <a href="policy.html">agreements on the processing of personal data</a></p>
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="call" aria-hidden="true" class="popup popup--call-back">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="GET" class="call-back">
+						<section class="call-back__wrapper">
+							<h4 class="call-back__sub-title">Need our advice?</h4>
+							<p class="call-back__text">Leave your contact details and our manager will contact you shortly</p>
+							<div class="call-back__lines">
+								<div class="call-back__line">
+									<input type="text" name="form[name]" data-validate data-required="text" placeholder="Name" autocomplete="off" class="call-back__input input">
+								</div>
+								<div class="call-back__line">
+									<input type="tel" name="form[tel]" data-validate data-required="tel" placeholder="Phone number" autocomplete="off" class="call-back__input input">
+								</div>
+								<div class="call-back__line">
+									<input type="email" name="form[email]" data-validate data-required="email" placeholder="E-mail" autocomplete="off" class="call-back__input input">
+								</div>
+								<div class="call-back__line">
+									<button type="submit" class="call-back__button button">Send</button>
+								</div>
+							</div>
+							<p class="call-back__info">By submitting an application, you accept the terms <a href="policy.html">agreements on the processing of personal data</a></p>
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="decide" aria-hidden="true" class="popup popup--cant-decide">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="GET" class="cant-decide">
+						<section class="cant-decide__wrapper">
+							<h4 class="cant-decide__sub-title">Can't decide?</h4>
+							<p class="cant-decide__text">Leave your contact details and our manager will contact you shortly</p>
+							<div class="cant-decide__lines">
+								<div class="cant-decide__line">
+									<input type="text" name="form[name]" data-validate data-required="text" placeholder="Name" autocomplete="off" class="cant-decide__input input">
+								</div>
+								<div class="cant-decide__line">
+									<input type="tel" name="form[tel]" data-validate data-required="tel" placeholder="Phone number" autocomplete="off" class="cant-decide__input input">
+								</div>
+								<div class="cant-decide__line">
+									<input type="email" name="form[email]" data-validate data-required="email" placeholder="E-mail" autocomplete="off" class="cant-decide__input input">
+								</div>
+								<div class="cant-decide__line">
+									<button type="submit" class="cant-decide__button button">Send</button>
+								</div>
+							</div>
+							<p class="cant-decide__info">By submitting an application, you accept the terms <a href="policy.html">agreements on the processing of personal data</a></p>
+						</section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rew1" aria-hidden="true" class="popup popup--reviews-first">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="slide-reviews__wrapper">
+						<div class="slide-reviews__info">
+							<h3 class="slide-reviews__title">I ordered a sofa from «Element Home»</h3>
+							<p class="slide-reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus 🔥</p>
+						</div>
+						<div class="slide-reviews__user-block">
+							<h4 class="slide-reviews__name">Lili</h4>
+							<picture><source srcset="img/reviews/lili.webp" type="image/webp"><img src="img/reviews/lili.png" alt="Lili"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rew2" aria-hidden="true" class="popup popup--reviews-second">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="slide-reviews__wrapper slide-reviews__wrapper--bg-img">
+						<a href="#" class="slide-reviews__play _icon-play"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230322173029"></script>
+</body>
+
+</html>
